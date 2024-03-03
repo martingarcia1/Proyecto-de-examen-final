@@ -124,7 +124,7 @@ document.getElementById("botonEliminar").addEventListener("click", function (eve
         setTimeout(() => {
             mensaje.classList.remove('realizado');
            
-            // window.location.reload();
+             window.location.reload();
         },  1500);
     }
     guardarDatosLocal('productos', productos);
